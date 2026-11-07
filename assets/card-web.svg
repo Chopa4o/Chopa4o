@@ -20,19 +20,11 @@
     <rect width="1200" height="300" fill="url(#g)"/>
     <rect x=".5" y=".5" width="1199" height="299" rx="20" fill="none" stroke="#ffffff" stroke-opacity=".1"/>
 
-    <text x="40" y="58" class="m" font-size="13" fill="#c6e36b" letter-spacing="2">1С-БИТРИКС · WORDPRESS · HTML/CSS/JS · NODE.JS</text>
-    <text x="40" y="106" font-size="38" font-weight="800" fill="#fff">Сайты под ключ</text>
-    <text x="40" y="140" font-size="17" fill="#c3c9d8">Корпоративные сайты, каталоги, калькуляторы, онлайн-запись,</text>
-    <text x="40" y="164" font-size="17" fill="#c3c9d8">3D/WebGL-сцены. Адаптив, RU / KZ / EN, скорость и SEO с первого дня.</text>
+    <text x="40" y="104" class="m" font-size="13" fill="#c6e36b" letter-spacing="2">1С-БИТРИКС · WORDPRESS · HTML/CSS/JS · NODE.JS</text>
+    <text x="40" y="152" font-size="38" font-weight="800" fill="#fff">Сайты под ключ</text>
+    <text x="40" y="186" font-size="17" fill="#c3c9d8">Корпоративные сайты, каталоги, калькуляторы, онлайн-запись,</text>
+    <text x="40" y="210" font-size="17" fill="#c3c9d8">3D/WebGL-сцены. Адаптив, RU / KZ / EN, скорость и SEO с первого дня.</text>
 
-    <g font-size="14" fill="#e8ecf6">
-      <rect x="40" y="194" width="176" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="128" y="216" text-anchor="middle">🏠 Каталог недвижимости</text>
-      <rect x="226" y="194" width="140" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="296" y="216" text-anchor="middle">🎨 3D-подбор цвета</text>
-      <rect x="376" y="194" width="148" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="450" y="216" text-anchor="middle">🏜️ Туры и путёвки</text>
-      <rect x="40" y="236" width="156" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="118" y="258" text-anchor="middle">🎓 Учебный центр</text>
-      <rect x="206" y="236" width="170" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="291" y="258" text-anchor="middle">🌾 Сельхозтехника · WP</text>
-      <rect x="386" y="236" width="138" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="455" y="258" text-anchor="middle">🏭 Промышленность</text>
-    </g>
 
     <!-- browser mock -->
     <rect x="640" y="30" width="520" height="252" rx="14" fill="#f2ede3"/>
