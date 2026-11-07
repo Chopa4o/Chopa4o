@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#151a10"/><stop offset=".55" stop-color="#0e1118"/><stop offset="1" stop-color="#1b100c"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1200" height="300" rx="20"/></clipPath>
+    <clipPath id="scr"><rect x="660" y="64" width="480" height="206" rx="4"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Inter, Roboto, Arial, sans-serif; }
+    .m { font-family: 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+    @keyframes page { 0%,15% { transform: translateY(0) } 45%,60% { transform: translateY(-150px) } 90%,100% { transform: translateY(0) } }
+    @keyframes cur { 0%,100% { transform: translate(0,0) } 30% { transform: translate(-120px,40px) } 60% { transform: translate(60px,-20px) } }
+    @keyframes hl { 0%,100% { opacity: .25 } 50% { opacity: 1 } }
+    .pg { animation: page 9s ease-in-out infinite; }
+    .cu { animation: cur 7s ease-in-out infinite; }
+    .h { animation: hl 3s ease-in-out infinite; }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="1200" height="300" fill="url(#g)"/>
+    <rect x=".5" y=".5" width="1199" height="299" rx="20" fill="none" stroke="#ffffff" stroke-opacity=".1"/>
+
+    <text x="40" y="58" class="m" font-size="13" fill="#c6e36b" letter-spacing="2">1С-БИТРИКС · WORDPRESS · HTML/CSS/JS · NODE.JS</text>
+    <text x="40" y="106" font-size="38" font-weight="800" fill="#fff">Сайты под ключ</text>
+    <text x="40" y="140" font-size="17" fill="#c3c9d8">Корпоративные сайты, каталоги, калькуляторы, онлайн-запись,</text>
+    <text x="40" y="164" font-size="17" fill="#c3c9d8">3D/WebGL-сцены. Адаптив, RU / KZ / EN, скорость и SEO с первого дня.</text>
+
+    <g font-size="14" fill="#e8ecf6">
+      <rect x="40" y="194" width="176" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="128" y="216" text-anchor="middle">🏠 Каталог недвижимости</text>
+      <rect x="226" y="194" width="140" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="296" y="216" text-anchor="middle">🎨 3D-подбор цвета</text>
+      <rect x="376" y="194" width="148" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="450" y="216" text-anchor="middle">🏜️ Туры и путёвки</text>
+      <rect x="40" y="236" width="156" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="118" y="258" text-anchor="middle">🎓 Учебный центр</text>
+      <rect x="206" y="236" width="170" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="291" y="258" text-anchor="middle">🌾 Сельхозтехника · WP</text>
+      <rect x="386" y="236" width="138" height="34" rx="17" fill="#ffffff" fill-opacity=".07"/><text x="455" y="258" text-anchor="middle">🏭 Промышленность</text>
+    </g>
+
+    <!-- browser mock -->
+    <rect x="640" y="30" width="520" height="252" rx="14" fill="#f2ede3"/>
+    <rect x="640" y="30" width="520" height="30" rx="14" fill="#1d1f26"/>
+    <rect x="640" y="46" width="520" height="14" fill="#1d1f26"/>
+    <circle cx="660" cy="45" r="5" fill="#ff5f57"/><circle cx="676" cy="45" r="5" fill="#febc2e"/><circle cx="692" cy="45" r="5" fill="#28c840"/>
+    <rect x="712" y="37" width="300" height="16" rx="8" fill="#2c2f38"/>
+    <text x="724" y="49" class="m" font-size="10.5" fill="#9aa3b8">chopa4ok.space/portfolio</text>
+    <g clip-path="url(#scr)">
+      <g class="pg">
+        <rect x="660" y="72" width="70" height="10" rx="3" fill="#1d1f26"/>
+        <rect x="960" y="72" width="40" height="8" rx="3" fill="#9a958b"/><rect x="1010" y="72" width="40" height="8" rx="3" fill="#9a958b"/><rect x="1060" y="72" width="60" height="14" rx="4" fill="#ff5a1f"/>
+        <rect x="660" y="104" width="250" height="26" rx="4" fill="#1d1f26"/>
+        <rect x="660" y="136" width="200" height="26" rx="4" fill="#3b5bff"/>
+        <rect x="660" y="172" width="230" height="8" rx="3" fill="#9a958b"/><rect x="660" y="186" width="190" height="8" rx="3" fill="#9a958b"/>
+        <rect x="660" y="206" width="110" height="28" rx="4" fill="#1d1f26"/>
+        <rect class="h" x="950" y="100" width="170" height="130" rx="8" fill="#c6e36b"/>
+        <rect x="930" y="114" width="170" height="130" rx="8" fill="#ff5a1f" opacity=".9"/>
+        <rect x="910" y="128" width="170" height="130" rx="8" fill="#3b5bff"/>
+        <rect x="660" y="270" width="150" height="100" rx="8" fill="#e2dccf"/><rect x="825" y="270" width="150" height="100" rx="8" fill="#e2dccf"/><rect x="990" y="270" width="150" height="100" rx="8" fill="#e2dccf"/>
+        <rect x="672" y="350" width="90" height="8" rx="3" fill="#9a958b"/><rect x="837" y="350" width="90" height="8" rx="3" fill="#9a958b"/><rect x="1002" y="350" width="90" height="8" rx="3" fill="#9a958b"/>
+      </g>
+    </g>
+    <g class="cu"><path d="M1010 190 l0 22 l6 -6 l5 11 l4 -2 l-5 -11 l8 0 z" fill="#111" stroke="#fff" stroke-width="1.2"/></g>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+  <style>
+    text { font-family: 'Segoe UI', Inter, Roboto, Arial, sans-serif; }
+    @keyframes up { from { opacity: 0; transform: translateY(16px) } to { opacity: 1; transform: translateY(0) } }
+    @keyframes bar { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    .c { animation: up .8s ease-out both; }
+    .c2 { animation-delay: .15s } .c3 { animation-delay: .3s } .c4 { animation-delay: .45s }
+    .bar { transform-box: fill-box; transform-origin: left; animation: bar 1.4s .4s ease-out both; }
+  </style>
+  <rect width="1200" height="150" rx="20" fill="#0d1220"/>
+  <rect x="0.5" y="0.5" width="1199" height="149" rx="20" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <g class="c">
+    <text x="150" y="78" text-anchor="middle" font-size="52" font-weight="800" fill="#ffffff">4+</text>
+    <text x="150" y="110" text-anchor="middle" font-size="17" fill="#9aa6c2">года коммерческой разработки</text>
+    <rect class="bar" x="90" y="124" width="120" height="4" rx="2" fill="#3b5bff"/>
+  </g>
+  <line x1="300" y1="30" x2="300" y2="120" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g class="c c2">
+    <text x="450" y="78" text-anchor="middle" font-size="52" font-weight="800" fill="#ffffff">15</text>
+    <text x="450" y="110" text-anchor="middle" font-size="17" fill="#9aa6c2">сайтов на сопровождении</text>
+    <rect class="bar" x="390" y="124" width="120" height="4" rx="2" fill="#ff5a1f"/>
+  </g>
+  <line x1="600" y1="30" x2="600" y2="120" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g class="c c3">
+    <text x="750" y="78" text-anchor="middle" font-size="52" font-weight="800" fill="#ffffff">2</text>
+    <text x="750" y="110" text-anchor="middle" font-size="17" fill="#9aa6c2">своих продукта в релизе</text>
+    <rect class="bar" x="690" y="124" width="120" height="4" rx="2" fill="#c6e36b"/>
+  </g>
+  <line x1="900" y1="30" x2="900" y2="120" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g class="c c4">
+    <text x="1050" y="78" text-anchor="middle" font-size="52" font-weight="800" fill="#ffffff">500+</text>
+    <text x="1050" y="110" text-anchor="middle" font-size="17" fill="#9aa6c2">автотестов в проектах</text>
+    <rect class="bar" x="990" y="124" width="120" height="4" rx="2" fill="#8ea2ff"/>
+  </g>
+</svg>
